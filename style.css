@@ -1,11 +1,64 @@
 body {
 	background:url(images/bg-wpress.jpg);
-	width:100%;
-	height:100%;
+	width     :100%;
+	height    :100%;
+	
 }
 
 div.topheader{
-	width:100%;
-	height:70px;
+	width           :100%;
+	height          :54px;
 	background-color:#F2F2F2;
+	position        :fixed;
 }
+
+div.topheader .search{
+	width       :256px;
+	height      :30px;
+	margin-top  :7px;
+	float       :none;
+	margin-left :auto;
+	margin-right:190px;
+	
+}
+input.textsearch{
+	width     :256px;
+	height    :30px;
+	text-align:right;
+	padding   :4px;
+	border    :none;
+	border    :1px solid #ccc;
+}
+
+div.search input.button{
+	width         :25px;
+	height        :30px;
+	margin-top    :-34px;
+	vertical-align:top;
+	margin-left   :5px;
+}
+
+div.topmenu ul{
+	margin-left :190px;
+	margin-top  :-9px;
+}
+
+div.topmenu li{
+	float           :left;
+	list-style-type :none;
+}
+
+div li>a{
+	padding      :4px 17px;
+	font-size    :18px;
+	font-family  :Arial, Helvetica, sans-serif;
+	color        :#666;
+	font-weight  :bold;
+}
+
+div li>a:hover{
+	color         :#BCD91A;
+	border-bottom :#BCD91A solid 1px;
+	cursor        :pointer;
+}
+
