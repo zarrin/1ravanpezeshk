@@ -54,7 +54,6 @@ div.topmenu li>a{
 	font-size       :18px;
 	font-family     :Arial, Helvetica, sans-serif;
 	color           :#666;
-	font-weight     :bold;
 	text-decoration :none;
 }
 
@@ -106,4 +105,21 @@ div.menu ul> li>a:hover{
 	background-color :#333;
 	color            :#EEE;
 	border-radius    :10px 10px 0 0;
+}
+
+div.accslides{
+	width      :610px;
+	overflow   :hidden;
+	margin-top :10px;
+}
+
+div.accslides .train{
+	width  :700px;
+}
+
+div.accslides .train > div{
+	width     :150px;
+	overflow  :hidden;
+	float     :left;
+	/* auto height by img */
 }
