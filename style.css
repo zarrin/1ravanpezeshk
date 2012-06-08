@@ -132,11 +132,15 @@ div.footer1{
 	font-size: 13px;
 	width:980px;
 	margin:0 auto;
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 div.footer1 a{
 	color:#666;
 	font-size:17px;
 	font-family:Arial, Helvetica, sans-serif;
+}
+div.footer2 a{
+	margin-left:830px;
+	font-weight:bold;	
 }
