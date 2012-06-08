@@ -121,5 +121,22 @@ div.accslides .train > div{
 	width     :150px;
 	overflow  :hidden;
 	float     :left;
-	/* auto height by img */
+}
+
+div.footer1{
+	margin-top: 6px;
+    background: #F3F1F1;
+	padding: 20px;
+	text-align: center;
+	color: #393434;
+	font-size: 13px;
+	width:980px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+div.footer1 a{
+	color:#666;
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
 }
