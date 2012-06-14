@@ -252,3 +252,7 @@ div.post .continue{
 	right:3px;
 	bottom:3px;
 }
+
+div.post .continue a:hover{
+	color:#BCD91A;
+}
