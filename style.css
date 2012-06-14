@@ -1,77 +1,77 @@
 body {
 	background :url(images/bg-wpress.jpg);
-	width      :100%;
-	height     :100%;
-	padding    :1px;
+	width      : 100% ;
+	height     : 100% ;
+	padding    : 1px  ;
 	
 }
 
 div.topheader{
-	width            :100%;
-	height           :54px;
-	background-color :#F2F2F2;
-	position         :fixed;
-	outline          :1px dashed brown;	
+	width            : 100%             ;
+	height           : 54px             ;
+	background-color : #F2F2F2          ;
+	position         : fixed            ;
+	outline          : 1px dashed brown ;	
 }
 
 div.topheader .search{
-	width        :267px;
-	height       :41px;
-	margin-top   :7px;
-	float        :right;
-	margin-left  :auto;
-	margin-right :190px;
-	outline      :1px dashed silver;	
+	width        : 267px             ;
+	height       : 41px              ;
+	margin-top   : 7px               ;
+	float        : right             ;
+	margin-left  : auto              ;
+	margin-right : 190px             ;
+	outline      : 1px dashed silver ;	
 	
 }
 input.textsearch{
-	width      :256px;
-	height     :30px;
-	text-align :right;
-	padding    :4px;
-	border     :none;
-	border     :1px solid #ccc;
+	width      : 256px          ;
+	height     : 30px           ;
+	text-align : right          ;
+	padding    : 4px            ;
+	border     : none           ;
+	border     : 1px solid #ccc ;
 }
 
 div.search input.button{
-	width         :25px;
-	height        :30px;
-	margin-top    :-34px;
-	vertical-align:top;
-	margin-left   :5px;
-	outline       :1px dashed black;	
+	width          : 25px             ;
+	height         : 30px             ;
+	margin-top     : -34px            ;
+	vertical-align : top              ;
+	margin-left    : 5px              ;
+	outline        : 1px dashed black ;	
 }
 
 div.topmenu{
-	position:relative;
-	width:980px;
-	height:50px;
+	position:relative ;
+	width  : 980px    ;
+	height : 50px     ;
 }
 
 div.topmenu ul{
-	position:absolute;
-	bottom:0;
-	left:240px;
+	position : absolute ;
+	bottom   : 0        ;
+	left     : 240px    ;
 }
 
 div.topmenu li{
-	float           :left;
-	list-style-type :none;
-	outline         :1px dashed #CF0;
+	float           : left            ;
+	list-style-type : none            ;
+	outline         : 1px dashed #CF0 ;
 }
 
 div.topmenu li>a{
-	padding         :4px 17px;
-	font-size       :18px;
-	font-family     :Arial, Helvetica, sans-serif;
-	color           :#666;
-	text-decoration :none;
+	padding         : 4px 17px                     ;
+	font-size       : 18px                         ;
+	font-family     : Arial, Helvetica, sans-serif ;
+	color           : #666                         ;
+	text-decoration : none                         ;
 }
 
 div.topmenu li>a:hover{
-	color         :#BCD91A;
-	border-bottom :#BCD91A solid 1px;
-	cursor        :pointer;
+	color         : #BCD91A           ;
+	border-bottom : #BCD91A solid 1px ;
+	cursor        : pointer           ;
 }
 
 div.logo{
@@ -80,26 +80,26 @@ div.logo{
 
 div.logo .image{
 	background:url(images/Untitled-1.jpg);
-	width:244px;
-	height:144px;
-	background-repeat:no-repeat;
-	margin:0 auto;
-	margin-top:63px;
-	outline:1px solid gray;
+	width             : 244px          ;
+	height            : 144px          ;
+	background-repeat : no-repeat      ;
+	margin            : 0 auto         ;
+	margin-top        : 63px           ;
+	outline           : 1px solid gray ;
 }
 
 div.container{
-	width       :980px;
-	min-height  :1000px;
-	outline     :1px dashed gray;
+	width       : 980px           ;
+	min-height  : 1000px          ;
+	outline     : 1px dashed gray ;
 }
 
 div.menu{
-	width             :100%;
-	height            :54px;
-	background-color  :#F2F2F2;
-	border-radius     :10px 10px 0 0;
-	padding           :1px;
+	width             : 100%          ;
+	height            : 54px          ;
+	background-color  : #F2F2F2       ;
+	border-radius     : 10px 10px 0 0 ;
+	padding           : 1px           ;
 }
 
 div.menu ul{
@@ -107,152 +107,145 @@ div.menu ul{
 }
 
 div.menu li{
-	list-style-type :none;
-	margin-right    :10px;
+	list-style-type : none ;
+	margin-right    : 10px ;
 }
 
 div.menu ul> li>a{
-	float           :left;
-	font-size       :22px;
-	font-weight     :bold;
-	font-family     :Arial, Helvetica, sans-serif;
-	padding         :15px 35px;
-	text-decoration :none;
-	color           :#555;
-	outline         :1px dashed gray;
+	float           : left                         ;
+	font-size       : 22px                         ;
+	font-weight     : bold                         ;
+	font-family     : Arial, Helvetica, sans-serif ;
+	padding         : 15px 35px                    ;
+	text-decoration : none                         ;
+	color           : #555                         ;
+	outline         : 1px dashed gray              ;
 }
 
 div.menu ul> li>a:hover{
-	background-color :#333;
-	color            :#EEE;
-	border-radius    :10px 10px 0 0;
+	background-color : #333          ;
+	color            : #EEE          ;
+	border-radius    : 10px 10px 0 0 ;
 }
 
 div.accslides{
-	width      :610px;
-	margin-top :10px;
+	width      : 610px ;
+	margin-top : 10px  ;
 }
 
 div.accslides .train{
-	width  :700px;
+	width  : 700px ;
 }
 
 div.accslides .train > div{
-	width     :150px;
-	overflow  :hidden;
-	float     :left;
-	outline    :1px dashed gray;
+	width     : 150px           ;
+	overflow  : hidden          ;
+	float     : left            ;
+	outline   : 1px dashed gray ;
 }
 
 div.footer1{
-	margin-top    :6px;
-    background    :#F3F1F1;
-	padding       :20px;
-	text-align    :center;
-	color         :#393434;
-	font-size     :13px;
-	width         :940px;
-	margin        :0 auto;
-	margin-bottom :20px;
-	outline       :1px dashed red;	
+	margin-top    : 6px            ;
+    background    : #F3F1F1        ;
+	padding       : 20px           ;
+	text-align    : center         ;
+	color         : #393434        ;
+	font-size     : 13px           ;
+	width         : 940px          ;
+	margin        : 0 auto         ;
+	margin-bottom : 20px           ;
+	outline       : 1px dashed red ;	
 }
 
 div.footer1 a{
-	color       :#666;
-	font-size   :17px;
-	font-family :Arial, Helvetica, sans-serif;
-	outline     :1px dashed orange;	
+	color       : #666                         ;
+	font-size   : 17px                         ;
+	font-family : Arial, Helvetica, sans-serif ;
+	outline     : 1px dashed orange            ;	
 }
 div.footer2 a{
-	margin-left :830px;
-	font-weight :bold;
-	outline     :1px dashed black;	
+	margin-left : 830px            ;
+	font-weight : bold             ;
+	outline     : 1px dashed black ;	
 }
 
 div.sidebar{
-	position:relative;
+	position : relative ;
 }
 
 div.sidelittle{
 	position:absolute;
-	width:370px;
-	height:570px;
-	outline:1px solid gray;
-	right:0;
-	top:10px;
-	margin-right:3px;
-}
-
-div.clear{
-	clear:both;
-	height:0;
-	width:0;
-	overflow:hidden;
+	width        : 370px          ;
+	height       : 570px          ;
+	outline      : 1px solid gray ;
+	right        : 0              ;
+	top          : 10px           ;
+	margin-right : 3px            ;
 }
 
 div.post{
-	width:598px;
-	height:400px;
-	outline:1px dashed black;
-	margin-top:10px;
-	padding:1px;
-	margin-left:3px;
+	width       : 598px            ;
+	height      : 400px            ;
+	outline     : 1px dashed black ;
+	margin-top  : 10px             ;
+	padding     : 1px              ;
+	margin-left : 3px              ;
 }
 
 div.post .pic{
-	width:170px;
-	height:170px;
-	background-color:#999;
-	margin-left:auto;
-	margin-right:6px;
-	margin-top:4px;
-	outline:1px dashed red;
-	float:right;
+	width            : 170px          ;
+	height           : 170px          ;
+	background-color : #999           ;
+	margin-left      : auto           ;
+	margin-right     : 6px            ;
+	margin-top       : 4px            ;
+	outline          : 1px dashed red ;
+	float            : right          ;
 }
 
 div.post .text1{
-	width:340px;
-	height:132px;
-	outline:1px dashed orange;
-	margin-top:40px;
-	margin-left:72px;
+	width      : 340px             ;
+	height     : 132px             ;
+	outline    : 1px dashed orange ;
+	margin-top : 40px              ;
+	margin-left: 72px              ;
 }
 
 div.post .text1 h1{
-	text-align:center;
+	text-align : center ;
 }
 
 div.post .text2{
-	width:587px;
-	height:212px;
-	outline:1px dashed green;
-	margin-left:6px;
-	margin-top:8px;
-	position:relative;
+	width      : 587px            ;
+	height     : 212px            ;
+	outline    : 1px dashed green ;
+	margin-left: 6px              ;
+	margin-top : 8px              ;
+	position   : relative         ;
 }
 
 div.post .note>a{
-	font-size:18px;
-	word-wrap:break-word;
+	font-size : 18px       ;
+	word-wrap : break-word ;
 }
 
 div.post .continue a{
-	font-size:20px;
-	text-decoration:none;
-	color:black;
-	font-family:Verdana, Geneva, sans-serif;
+	font-size       : 20px                        ;
+	text-decoration : none                        ;
+	color           : black                       ;
+	font-family     : Verdana, Geneva, sans-serif ;
 	
 }
 
 div.post .continue{
-	outline:1px dashed red;
-	width:87px;
-	height:28px;
-	position:absolute;
-	right:3px;
-	bottom:3px;
+	outline  : 1px dashed red ;
+	width    : 87px           ;
+	height   : 28px           ;
+	position : absolute       ;
+	right    : 3px            ;
+	bottom   : 3px            ;
 }
 
 div.post .continue a:hover{
-	color:#BCD91A;
+	color : #BCD91A ;
 }
