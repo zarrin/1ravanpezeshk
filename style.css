@@ -1,34 +1,36 @@
 body {
-	background:url(images/bg-wpress.jpg);
-	width     :100%;
-	height    :100%;
-	padding:1px;
+	background :url(images/bg-wpress.jpg);
+	width      :100%;
+	height     :100%;
+	padding    :1px;
 	
 }
 
 div.topheader{
-	width           :100%;
-	height          :54px;
-	background-color:#F2F2F2;
-	position        :fixed;
+	width            :100%;
+	height           :54px;
+	background-color :#F2F2F2;
+	position         :fixed;
+	outline          :1px dashed brown;	
 }
 
 div.topheader .search{
-	width       :256px;
-	height      :30px;
-	margin-top  :7px;
-	float       :none;
-	margin-left :auto;
-	margin-right:190px;
+	width        :267px;
+	height       :41px;
+	margin-top   :7px;
+	float        :none;
+	margin-left  :auto;
+	margin-right :190px;
+	outline      :1px dashed silver;	
 	
 }
 input.textsearch{
-	width     :256px;
-	height    :30px;
-	text-align:right;
-	padding   :4px;
-	border    :none;
-	border    :1px solid #ccc;
+	width      :256px;
+	height     :30px;
+	text-align :right;
+	padding    :4px;
+	border     :none;
+	border     :1px solid #ccc;
 }
 
 div.search input.button{
@@ -37,16 +39,18 @@ div.search input.button{
 	margin-top    :-34px;
 	vertical-align:top;
 	margin-left   :5px;
+	outline       :1px dashed black;	
 }
 
 div.topmenu ul{
 	margin-left :190px;
-	margin-top  :-9px;
+	margin-top  :-19px;	
 }
 
 div.topmenu li{
 	float           :left;
 	list-style-type :none;
+	outline         :1px dashed #CF0;
 }
 
 div.topmenu li>a{
@@ -64,13 +68,20 @@ div.topmenu li>a:hover{
 }
 
 div.logo{
-	text-align :center;
-	margin-top :50px;
+
+}
+
+div.logo>img{
+	margin-left   :900px;
+	margin-top    :63px;
+	margin-right  :auto;
+	outline       :1px dashed gray;
 }
 
 div.container{
 	width       :980px;
 	min-height  :1000px;
+	outline     :1px dashed gray;
 }
 
 div.menu{
@@ -99,6 +110,7 @@ div.menu ul> li>a{
 	padding         :15px 35px;
 	text-decoration :none;
 	color           :#555;
+	outline         :1px dashed gray;
 }
 
 div.menu ul> li>a:hover{
@@ -109,8 +121,8 @@ div.menu ul> li>a:hover{
 
 div.accslides{
 	width      :610px;
-	overflow   :hidden;
 	margin-top :10px;
+	outline    :1px dashed gray;
 }
 
 div.accslides .train{
@@ -124,23 +136,40 @@ div.accslides .train > div{
 }
 
 div.footer1{
-	margin-top: 6px;
-    background: #F3F1F1;
-	padding: 20px;
-	text-align: center;
-	color: #393434;
-	font-size: 13px;
-	width:980px;
-	margin:0 auto;
-	margin-bottom:20px;
+	margin-top    :6px;
+    background    :#F3F1F1;
+	padding       :20px;
+	text-align    :center;
+	color         :#393434;
+	font-size     :13px;
+	width         :940px;
+	margin        :0 auto;
+	margin-bottom :20px;
+	outline       :1px dashed red;	
 }
 
 div.footer1 a{
-	color:#666;
-	font-size:17px;
-	font-family:Arial, Helvetica, sans-serif;
+	color       :#666;
+	font-size   :17px;
+	font-family :Arial, Helvetica, sans-serif;
+	outline     :1px dashed orange;	
 }
 div.footer2 a{
-	margin-left:830px;
-	font-weight:bold;	
+	margin-left :830px;
+	font-weight :bold;
+	outline     :1px dashed black;	
+}
+
+div.sidebar{
+	position:relative;
+}
+
+div.sidelittle{
+	position:absolute;
+	width:370px;
+	height:734px;
+	outline:1px solid gray;
+	right:0;
+	top:0;
+	
 }
