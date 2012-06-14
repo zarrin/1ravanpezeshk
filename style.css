@@ -75,14 +75,17 @@ div.topmenu li>a:hover{
 }
 
 div.logo{
-
+	
 }
 
-div.logo>img{
-	margin-left   :900px;
-	margin-top    :63px;
-	margin-right  :auto;
-	outline       :1px dashed gray;
+div.logo .image{
+	background:url(images/Untitled-1.jpg);
+	width:244px;
+	height:144px;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	margin-top:63px;
+	outline:1px solid gray;
 }
 
 div.container{
@@ -178,5 +181,11 @@ div.sidelittle{
 	outline:1px solid gray;
 	right:0;
 	top:0;
-	
+}
+
+div.clear{
+	clear:both;
+	height:0;
+	width:0;
+	overflow:hidden;
 }
