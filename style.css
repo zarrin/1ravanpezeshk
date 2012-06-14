@@ -18,7 +18,7 @@ div.topheader .search{
 	width        :267px;
 	height       :41px;
 	margin-top   :7px;
-	float        :none;
+	float        :right;
 	margin-left  :auto;
 	margin-right :190px;
 	outline      :1px dashed silver;	
@@ -42,9 +42,16 @@ div.search input.button{
 	outline       :1px dashed black;	
 }
 
+div.topmenu{
+	position:relative;
+	width:980px;
+	height:50px;
+}
+
 div.topmenu ul{
-	margin-left :190px;
-	margin-top  :-19px;	
+	position:absolute;
+	bottom:0;
+	left:240px;
 }
 
 div.topmenu li{
@@ -122,7 +129,6 @@ div.menu ul> li>a:hover{
 div.accslides{
 	width      :610px;
 	margin-top :10px;
-	outline    :1px dashed gray;
 }
 
 div.accslides .train{
@@ -133,6 +139,7 @@ div.accslides .train > div{
 	width     :150px;
 	overflow  :hidden;
 	float     :left;
+	outline    :1px dashed gray;
 }
 
 div.footer1{
