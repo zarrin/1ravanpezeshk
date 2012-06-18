@@ -123,18 +123,20 @@ div.menu ul> li>a{
 }
 
 div.menu ul> li>a:hover{
-	background-color : #333          ;
+	background-color : #666          ;
 	color            : #EEE          ;
 	border-radius    : 10px 10px 0 0 ;
 }
 
 div.accslides{
-	width      : 610px ;
+	width      : 980px ;
 	margin-top : 10px  ;
+	
 }
 
 div.accslides .train{
-	width  : 700px ;
+	width  : 700px  ;
+	margin : 0 auto ;
 }
 
 div.accslides .train > div{
